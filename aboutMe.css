@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    margin: 15px;
+    font-size: 10;
+    /* color: #f3f0ed; */
+    color: #faf8f7;
+    /* font-weight: bolder; */
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+    background-image: url("forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topNav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    width: 100vw;
+  }
+  
+  .topNav li{
+    font-family: poppins-extralight;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .topNav li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 15px;
+  }
+  
+  .topNav li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 8px white;
+  }
+
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin: 125px;
+}
+
+.selfIntro{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgb(75, 58, 38, 0.8);
+    border-radius: 20px;
+}
+
+button{
+  cursor: grab;
+}
+
+#googleBoost{
+  padding: 5px;
+  margin: 9px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#onlineCourse{
+  padding: 5px;
+  margin: 9px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#competition{
+  padding: 5px;
+  margin: 9px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white;
+  border: transparent;
+  border-radius: 5px;
+}
