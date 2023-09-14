@@ -7,16 +7,32 @@
     padding: 0;
 }
 
-body{
+p{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
 
+header{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+body{
+    overflow-x:hidden; 
+    overflow-y:auto;
+    background: rgb(100,111,212);
+    background: linear-gradient(180deg, rgba(100,111,212,1) 0%, rgba(155,163,235,1) 39%, rgba(238,241,255,1) 100%);
 }
 
 .topNav{
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    background-color: black;
+    padding: 8px;
+    background-color: #001D6E;
     position: sticky;
+    z-index: 1;
     top: 0;
     list-style-type: none;
     margin: 0;
@@ -27,7 +43,7 @@ body{
     font-family: poppins-extralight;
     font-size: 17px;
     font-weight: lighter;
-    padding: 10px;
+    padding: 8px;
     flex-wrap: wrap;
 }
 
@@ -43,3 +59,79 @@ body{
     color: black;
     box-shadow: 0 0 8px white;
 }
+
+.projects{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.project1{
+    margin: 38px;
+    padding: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.project2{
+    margin: 38px;
+    padding: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.project3{
+    margin: 38px;
+    padding: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.project4{
+    margin: 38px;
+    padding: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 20px;
+    border-style: none;
+}
+
+button{
+    cursor: grab;
+    margin: 9px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white;
+    border: transparent;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x:hidden; 
+    overflow-y:auto;
+    background-color: #B0DAFF;
+}
+
+.topNav{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    background-color: #001D6E;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    width: 100vw;
+}
+
+.topNav li{
+    font-family: poppins-extralight;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.topNav li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 15px;
+}
+
+.topNav li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 8px white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.container ul {
+    margin: 0;
+    margin-top: 100px;
+    list-style: none;
+    position: relative;
+    padding: 1px 100px;
+    color: black;
+    /* font-size: 13px; */
+  }
+  .container ul:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px dashed #fff;
+  }
+  .container ul li {
+    position: relative;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 14px;
+    border-radius: 6px;
+    width: 600px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+  }
+  .container ul li:not(:first-child) {
+    margin-top: 60px;
+  }
+  .container ul li > span {
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    left: -30px;
+    top: 0;
+    position: absolute;
+  }
+  .container ul li > span:before, .container ul li > span:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background: #86b7e7;
+    left: -5px;
+    top: 0;
+  }
+  .container ul li span:after {
+    top: 100%;
+  }
+  .container ul li > div {
+    margin-left: 10px;
+  }
+  .container div .event {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .container div .position {
+    font-size: 16px;
+  }
+  .container div .descrip {
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .container div > div {
+    margin-top: 5px;
+  }
+  .container span.number {
+    height: 100%;
+  }
+  .container span.number span {
+    position: absolute;
+    font-size: 10px;
+    /* left: -70px; */
+    right: 22px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+  }
+  .container span.number span:first-child {
+    top: 0;
+  }
+  .container span.number span:last-child {
+    top: 100%;
+  }
+
+  .sea{
+    /* align-items: center;
+    justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+  }
+
+  .wave{
+    display: flex;
+    filter: drop-shadow(120 px 0 0 rgba(82,86,173,0.5));
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    max-width: fit-content;
+  }
+  .wave div{
+    position: relative;
+    width: 40px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .wave div::before{
+    content: "";
+    width: 300%;
+    height: 100%;
+    background-color: #253da1;
+    position: absolute;
+    overflow: hidden;
+    left: -100%;
+    top: 50%;
+    animation: upDown 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate, 
+    wave 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+    animation-delay: var(--d1), var(--d2);
+  }
+  
+  @keyframes upDown{
+    0%{
+      top: 70%;
+    }
+    100%{
+      top: 30%;
+    }
+  }
+  
+  @keyframes wave{
+    0%{
+      transform: rotateZ(-20deg);
+    }
+    100%{
+      transform: rotateZ(20deg);
+    }
+  }
