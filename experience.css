@@ -52,6 +52,7 @@ body{
     align-items: center;
     justify-content: center;
     background: transparent;
+    margin-bottom: 50px;
 }
 
 .container ul {
