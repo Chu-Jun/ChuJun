@@ -116,6 +116,10 @@ button{
 
 @media screen and (max-width: 480px){
 
+  body{
+    max-height: fit-content;
+  }
+
   .summary{
     margin: 45px;
   }

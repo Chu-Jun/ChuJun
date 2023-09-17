@@ -212,6 +212,10 @@ body{
       width: 100%;
     }
 
+    .container ul li > span {
+      left: -30px;
+    }
+
     .topNav li{
       font-size: 13px;
       padding: 2px;
