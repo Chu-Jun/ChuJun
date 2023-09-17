@@ -148,6 +148,8 @@ button{
 
     button{
         font-size: smaller;
+        padding: 8px;
+        margin-right: 0;
     }
 
 }
