@@ -433,13 +433,12 @@ body{
     }
 
     .topNav li{
-      font-size: 10px;
+      font-size: 13px;
       padding: 3px;
-      white-space: nowrap;
     }
 
     .topNav li a{
-      padding: 2px;
+      padding: 2px 10px;
       white-space: nowrap;
     }
   }
