@@ -430,6 +430,7 @@ body{
     .topNav li{
       font-size: 10px;
       padding: 3px;
+      white-space: nowrap;
     }
   }
 
