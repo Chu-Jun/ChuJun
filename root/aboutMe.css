@@ -118,6 +118,8 @@ button{
 
   body{
     min-height: fit-content;
+    overflow-x:hidden; 
+    overflow-y:auto;
   }
 
   .summary{
