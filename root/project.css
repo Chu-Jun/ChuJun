@@ -138,12 +138,12 @@ button{
 
     .topNav li{
         font-size: 13px;
-        padding: 3px;
+        padding: 2px;
     }
-
+    
     .topNav li a{
-      padding: 2px 12px;
-      white-space: nowrap;
+        padding: 2px 10px;
+        white-space: nowrap;
     }
   }
 
