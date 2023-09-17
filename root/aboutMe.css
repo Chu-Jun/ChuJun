@@ -120,6 +120,10 @@ button{
     margin: 30px;
   }
 
+  .topNav{
+    max-width: fit-content;
+  }
+
   .topNav li{
     font-size: 13px;
     padding: 2px;
