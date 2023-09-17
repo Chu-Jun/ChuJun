@@ -429,16 +429,16 @@ body{
   @media screen and (max-width: 480px){
 
     h1{
-      font-size: 40px;
+      font-size: 38px;
       white-space: nowrap;
     }
 
     h2{
-      font-size: 12px;
+      font-size: 15px;
     }
   
     p{
-      font-size: 8px;
+      font-size: 12px;
     }
 
     body{
